@@ -10,9 +10,9 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero.")
     return a / b
 
-a=int(sys.argv[1])
+a=float(sys.argv[1])
 operator=sys.argv[2]
-b=int(sys.argv[3])
+b=float(sys.argv[3])
 
 if operator == "+":
     result = add(a, b)
@@ -29,4 +29,3 @@ elif operator == "/":
         print(f"The result of {a} / {b} is: {result}")
     except ValueError as e:
         print(e)    
-        

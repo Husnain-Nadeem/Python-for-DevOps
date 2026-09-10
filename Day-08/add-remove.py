@@ -9,3 +9,8 @@ list.insert(2, 'Husnain')
 print("These are the students after insertion:" + str(list))
 list.remove('Ali')
 print("These are the students after removal:" + str(list))
+
+
+print(len(list))
+list.remove('Husnain')
+print("The length of the list after removal:" + str(len(list)))

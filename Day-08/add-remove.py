@@ -14,3 +14,4 @@ print("These are the students after removal:" + str(list))
 print(len(list))
 list.remove('Husnain')
 print("The length of the list after removal:" + str(len(list)))
+
